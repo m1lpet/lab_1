@@ -68,7 +68,7 @@ int* Database::search(const std::string& name, const std::string& genre, int& re
         if (matchName && matchGenre)
             indices[resultCount++] = i;
     }
-    return indices; // вызывающий обязан удалить[]
+    return indices; 
 }
 
 bool Database::saveToFile(const std::string& filename) const {
