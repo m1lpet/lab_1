@@ -1,4 +1,4 @@
-#include "boardgame.h"
+#include "BoarGame.h"
 #include <iomanip>
 
 BoardGame::BoardGame() : players(0), age(0), price(0.0), stock(0) {}
