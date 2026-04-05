@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <iomanip>
 
 Database::Database() : items(nullptr), count(0), capacity(0) {}
 
